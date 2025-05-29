@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site commercial des plantes </title>
+</head>
+<style>
+    body {
+        background: url(arriere.jpg);
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+    }
+
+    .logo img {
+        width: 100px;
+        height: 100px;
+        margin-left: 20px;
+        padding: 50px;
+    }
+
+    header {
+        display: flex;
+        border: #ffc01d;
+        background: #ffc01d;
+    }
+
+    nav {
+        display: flex;
+        list-style: none;
+        margin-left: 50px;
+    }
+
+    nav li {
+        margin: 0 20px;
+        justify-content: flex-end;
+        padding: 50px;
+    }
+
+    nav li a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+
+    section {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-left: 50px;
+        color: black padding: 20px;
+        margin: 20px;
+
+    }
+
+    .plants {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 10px;
+        background: white;
+        margin: 50px;
+        padding: 30px;
+        opacity: 0.8;
+
+    }
+
+    .plant {
+        padding: 20px;
+
+    }
+
+    .plant img {
+        border-top: 10px solid red;
+        border-bottom: 10px solid black;
+        border-right: 10px solid pink;
+        border-left: 10px solid purple;
+        width: 200px;
+        height: 200px;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    h1 {
+        text-align: center;
+        color: #ffc01d;
+    }
+
+    button {
+        border: none;
+        border-radius: 10px;
+        background: #ffc01d;
+        padding: 5px 5px;
+        color: black;
+        cursor: pointer;
+
+    }
+
+    button:hover {
+        background: rgb(65, 12, 12);
+        color: white;
+    }
+
+    footer {
+        background: #ffc01d;
+        color: black;
+        padding: 50px;
+        text-align: center;
+        font-size: 20px;
+        opacity: 0.8;
+
+    }
+
+    hr {
+        border: solid 1px #ffc01d;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="logo"> <img src="logo1.jpg" alt=""></div>
+
+        <div>
+            <nav>
+                <li><a href="">Accueil</a></li>
+                <li><a href="">Nos meilleurs ventes</a></li>
+                <li><a href="">contact</a></li>
+            </nav>
+
+        </div>
+    </header>
+
+    <hr>
+    <main>
+        <section>
+            <h1>Nos produits</h1>
+            <div class="plants">
+                <div class="plant">
+                    <img src="produit1.webp" alt="">
+                    <p>Prix : 2.000FR</p>
+                    <button type="submit">Acheter</button>
+                </div>
+                <div class="plant">
+                    <img src="produit2.jpeg" alt="">
+                    <p>Prix : 2.000FR</p>
+                    <button type="submit">Acheter</button>
+                </div>
+                <div class="plant">
+                    <img src="produit3.webp" alt="">
+                    <p>Prix : 2.000FR</p>
+                    <button type="submit">Acheter</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <hr>
+
+    <footer>
+        <p>&copy; La plante est une vie, sa commercialisation notre priorité "projet D.CHRISTIAN"</p>
+    </footer>
+
+</body>
+
+</html>
